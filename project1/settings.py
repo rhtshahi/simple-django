@@ -35,7 +35,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")
 # DEBUG = config('DEBUG', cast = bool)
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
